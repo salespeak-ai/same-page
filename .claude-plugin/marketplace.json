@@ -1,0 +1,16 @@
+{
+  "name": "same-page",
+  "description": "Same Page by Salespeak: find and fix contradictions across a company's public pages.",
+  "owner": {
+    "name": "Salespeak",
+    "email": "support@salespeak.ai"
+  },
+  "plugins": [
+    {
+      "name": "same-page",
+      "source": "./",
+      "description": "Finds where a company's own public pages contradict each other, quotes both sides, and writes the fix.",
+      "version": "0.1.0"
+    }
+  ]
+}

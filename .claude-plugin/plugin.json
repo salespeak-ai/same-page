@@ -1,0 +1,12 @@
+{
+  "name": "same-page",
+  "description": "Finds where a company's own public pages contradict each other, quotes both sides, and writes the fix.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Salespeak",
+    "email": "support@salespeak.ai"
+  },
+  "homepage": "https://salespeak.ai/same-page/",
+  "repository": "https://github.com/salespeak-ai/same-page",
+  "license": "MIT"
+}
