@@ -12,7 +12,7 @@ It runs inside the AI assistant you already use: ChatGPT, Claude, Grok, or any a
 |---|---|
 | ChatGPT | Open the [Same Page GPT](https://chatgpt.com/g/g-6ad310b0eb848191a8349de53787991b-same-page) and type your website. Needs a ChatGPT account; logged-out visitors cannot chat with GPTs. |
 | Grok | Open the [Same Page bot](https://x.ai/bot/BrDgZVp_v3jBEUK7JMzvm), choose **Add to Grok Bot**, and type your website. |
-| Claude (claude.ai) | Download [`same-page-claude-skill.zip`](claude/same-page-claude-skill.zip), then **Settings > Capabilities > Skills > Upload skill**. Start a new chat: "Check my company website: example.com". Skills need code execution turned on in Claude settings. |
+| Claude (claude.ai) | Download [`same-page-claude-skill.zip`](claude/same-page-claude-skill.zip), then in Claude open **Customize > Skills**, choose **Add > Upload skill**, and upload the zip. Start a new chat: "Check my company website: example.com". Claude loads the skill on its own. |
 | Claude Code | `/plugin marketplace add salespeak-ai/same-page`, then `/plugin install same-page@same-page`. |
 | Any other agent | Load [`same-page.md`](same-page.md) as the agent's instructions. The agent needs a tool that fetches a URL and returns the page text. |
 
