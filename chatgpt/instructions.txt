@@ -50,6 +50,7 @@ Accept any wording ("A", "the pricing page is right", "both wrong, it's $600"). 
 1. **Find every instance of the wrong version, not just the page in the finding.**
    - Search the text of every page you read in this conversation for the wrong value and its close variants (for "annual": "annual", "yearly", "12-month").
    - Then fetch pages you have not read that are likely to restate the same fact, up to 8 more: for price, plan or contract facts, the product pages, about, FAQ and terms; for security facts, security, trust and privacy; for capability facts, the product, integrations and comparison pages. Use the site's navigation, footer and sitemap to find them.
+   - In plan cards and comparison tables, a feature name that appears in a plan's list is only an instance if that plan shows it as included (see "Plan features: included or not" in the page check). Skip items marked not included or whose state you cannot tell.
    - Confirm every passage word for word in the fetched text of the URL you list it under. A passage that repeats across pages is confirmed separately on each URL. Never list a URL for a passage you did not find in that page's own text, even if the same sentence appears on similar pages.
 2. Write the replacement for each wrong passage:
    - **Page:** <URL>

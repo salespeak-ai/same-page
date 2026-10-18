@@ -10,7 +10,7 @@
       "name": "same-page",
       "source": "./",
       "description": "Finds where a company's own public pages contradict each other, quotes both sides, and writes the fix.",
-      "version": "0.1.0"
+      "version": "0.1.1"
     }
   ]
 }
